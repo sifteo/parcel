@@ -1,0 +1,31 @@
+{
+  "name": "parcel",
+  "version": "0.0.0",
+  "description": "Package management using a file server and path conventions.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:sifteo/parcel.git"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jared@sifteo.com"
+  },
+  "main": "./lib",
+  "bin" : {
+    "parcel" : "./bin/parcel.js"
+  },
+  "dependencies": {
+    "commander": "1.x.x",
+    "path-extra": "0.1.x",
+    "aws-sdk": "0.9.x",
+    "debug": "0.7.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=./lib node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  },
+  "engines": { "node": ">= 0.6.0" }
+}
