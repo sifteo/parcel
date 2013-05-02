@@ -1,6 +1,6 @@
 {
   "name": "parcel",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Package management using a file server and path conventions.",
   "repository": {
     "type": "git",
