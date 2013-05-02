@@ -57,6 +57,10 @@ Once packages are published, they can be queried:
 The command line interface is built on top of an API.  Parcel can be required
 as a module, and this API can be used programmatically.
 
+## Related Modules
+
+- [kerouac-parcel-appcast](https://github.com/sifteo/kerouac-parcel-appcast)  — generate appcasts from package repositories
+
 ## Tests
 
     $ npm install
