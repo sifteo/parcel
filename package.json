@@ -4,7 +4,10 @@
   "description": "Package management using a file server and path conventions.",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org:sifteo/parcel.git"
+    "url": "git://github.com/sifteo/parcel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sifteo/parcel/issues"
   },
   "author": {
     "name": "Jared Hanson",

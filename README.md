@@ -11,7 +11,7 @@ conventions allow this metadata to be queried, without the need for a database.
 
 Install for development:
 
-    $ git clone git@bitbucket.org:sifteo/parcel.git
+    $ git clone git@github.com:sifteo/parcel.git
     $ cd parcel
     $ npm link
 
