@@ -1,6 +1,6 @@
 {
   "name": "parcel",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Package management using a file server and path conventions.",
   "repository": {
     "type": "git",
@@ -10,6 +10,12 @@
     "name": "Jared Hanson",
     "email": "jared@sifteo.com"
   },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://opensource.org/licenses/Apache-2.0"
+    }
+  ],
   "main": "./lib",
   "bin" : {
     "parcel" : "./bin/parcel.js"
